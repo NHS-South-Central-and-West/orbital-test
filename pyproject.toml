@@ -1,0 +1,13 @@
+[project]
+name = "orbital-test"
+version = "0.1.0"
+description = "Demonstration of Posit's Orbital Package"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "orbital>=0.3.0",
+    "pandas>=2.3.3",
+    "pyodbc>=5.3.0",
+    "sqlalchemy>=2.0.45",
+]
